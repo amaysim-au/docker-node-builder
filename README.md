@@ -1,0 +1,18 @@
+# docker-ruby-builder
+Node/Npm image with some additional build dependencies, that are needed to build some node modules.
+
+The additional build dependancies in this image are:
+
+- python
+- make
+- linux-headers
+- libstdc++
+- libgcc
+- gcc
+- g++
+- native-deps
+
+## Usage
+
+    docker run amaysim/node-builder:8-alpine node --version
+    docker run amaysim/node-builder:8-alpine npm --version
