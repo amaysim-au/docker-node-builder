@@ -11,7 +11,7 @@ The additional build dependancies in this image are:
 - gcc
 - g++
 - native-deps
-- protractor
+- some node packages like protractor etc
 
 ## Usage
 
