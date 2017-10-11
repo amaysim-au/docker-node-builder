@@ -7,6 +7,7 @@ RUN apk --no-cache add --virtual native-deps \
   npm install -g --silent protractor && \
   npm install -g --silent protractor-jasmine2-screenshot-reporter && \
   npm install -g --silent jasmine-spec-reporter && \
+  npm install -g --silent protractor-console-plugin && \
   npm install -g --silent node-rest-client && \
   npm install -g --silent node-rest-client-promise && \
   npm install -g --silent dotenv
