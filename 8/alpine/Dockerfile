@@ -10,9 +10,4 @@ RUN apk --no-cache add --virtual native-deps \
   npm install -g --silent protractor-console-plugin && \
   npm install -g --silent node-rest-client && \
   npm install -g --silent node-rest-client-promise && \
-  npm install -g --silent wdio-jasmine-framework && \
-  npm install -g --silent wdio-screenshot && \
-  npm install -g --silent wdio-junit-reporter && \
-  npm install -g --silent wdio-spec-reporter && \
-  npm install -g --silent webdriverio && \
   npm install -g --silent dotenv
