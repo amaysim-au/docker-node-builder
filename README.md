@@ -15,5 +15,5 @@ The additional build dependancies in this image are:
 
 ## Usage
 
-    docker run amaysim/node-builder:8-alpine node --version
+    docker run amaysim/node-builder:9-alpine-1.4.0 node --version
     docker run amaysim/node-builder:8-alpine npm --version
